@@ -22,7 +22,7 @@ The model learns word vectors (lists of numbers) from text so that words that ap
 4. Prints a small nearest-neighbors sanity check at the end
 
 ## Project structure
-.
+. \
 ├── word2vec_numpy.py \
 ├── scripts/ \
 │ └── download_gutenberg.py \
