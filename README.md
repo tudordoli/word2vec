@@ -23,12 +23,12 @@ The model learns word vectors (lists of numbers) from text so that words that ap
 
 ## Project structure
 .
-├── word2vec_numpy.py
-├── scripts/
-│ └── download_gutenberg.py
-├── data/ # created locally, not committed
-├── requirements.txt
-└── README.md
+├── word2vec_numpy.py \
+├── scripts/ \
+│ └── download_gutenberg.py \
+├── data/ # created locally, not committed \
+├── requirements.txt \
+└── README.md \
 
 ## Download dataset
 
