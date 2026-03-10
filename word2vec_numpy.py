@@ -10,7 +10,7 @@ from typing import List, Tuple, Dict
 def read_corpus(path: str) -> List[str]:
     with open(path, "r", encoding="utf8") as f:
         text = f.read().lower()
-    for ch in '".,!?;:\n\r"()[]{}':
+    for ch in '"”.,!?;:\n\r"()[]{}':
         text = text.replace(ch, " ")
     tokens = text.split()
     return tokens
