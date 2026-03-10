@@ -32,6 +32,12 @@ The model learns word vectors (lists of numbers) from text so that words that ap
 
 ## Download dataset
 
+The dataset used in this project (Alice in Wonderland) is relatively small (~30K words), which limits the quality of the learned embeddings. Word2Vec models typically benefit from much larger corpora.
+
+For better performance, the model can be trained on a larger dataset (e.g., multiple Project Gutenberg books.)
+
+This dataset was chosen primarily for simplicity and ease of experimentation.
+
 python scripts/download_gutenberg.py
 
 ## Train
